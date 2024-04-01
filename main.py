@@ -27,7 +27,7 @@ def command() :
         recognized_text = r.recognize_google(audio, language="ru-RU")
         print("Распознано: " + recognized_text)
 
-    except sr.UnknownValueerror:
+    except sr.UnknownValueError:
         talk("Повторите еще раз")
         recognized_text = command()
 
