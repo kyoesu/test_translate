@@ -35,3 +35,4 @@ def command() :
 
 while True:
     translate(command())
+    
